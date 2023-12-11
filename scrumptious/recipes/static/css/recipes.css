@@ -1,0 +1,48 @@
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+.recipe-grid > div {
+  padding:10px;
+}
+
+  nav {
+    border-bottom: 10px solid black;
+    padding: 16px;
+    background-color: red;
+  }
+
+  nav > a {
+    color: white;
+    text-decoration: none;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    color: rgb(1, 71, 1)
+  }
+
+  h3 > a {
+    color: green;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  main {
+    padding: 16px;
+  }
+
+  img {
+    height: 160px;
+  }
+
+  footer {
+    border-bottom: 10px solid black;
+    padding: 16px;
+    background-color: lightgreen
+  }
